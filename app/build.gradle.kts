@@ -30,7 +30,10 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
 }
-
+repositories {
+    google()
+    mavenCentral()
+}
 dependencies {
 
     implementation(libs.appcompat)
